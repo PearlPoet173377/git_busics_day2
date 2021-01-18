@@ -1,4 +1,5 @@
 ﻿#include"Functionsh.h"
+#include"Functions.cpp"
 
 #define delimiter "\n----------------------------------\n"
 
