@@ -1,5 +1,6 @@
 ﻿#include"Functionsh.h"
 #include"Functions.cpp"
+#include"Sort.cpp"
 
 #define delimiter "\n----------------------------------\n"
 

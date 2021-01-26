@@ -9,25 +9,19 @@ template<typename T>void Print(T arr[], const int n)
 	cout << endl;
 }
 
-template<typename T>void Sum(T arr[], const int n)
+template<typename T>T Sum(T arr[], const int n)
 {
 	T sum = 0;
 	for (int i = 0; i < n; i++)
 	{
 		sum += arr[i];
 	}
-	cout << "Sum: " << sum << endl;
+	return sum;
 }
 
-template<typename T>void Avg(T arr[], const int n)
+template<typename T>double Avg(T arr[], const int n)
 {
-
-	T sum = 0;
-	for (int i = 0; i < n; i++)
-	{
-		sum += arr[i];
-	}
-	cout << "Avg: " << sum / n << endl;
+	return (double)Sum(arr, n) / n;
 }
 
 template<typename T>void minValueIn(T arr[], const int n)
